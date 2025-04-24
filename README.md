@@ -87,8 +87,8 @@ Below are visual comparisons of predictions made by the YOLOv8m model **before**
 |--------------------|-------------------|
 | ![Before FT 1](example_predictions/yolo_before_2.png) | ![After FT 1](example_predictions/yolo_mult.png) |
 
-- **Before**: Model misclassified the sign with a confidence score of 0.27.
-- **After**: Correctly identified the traffic sign with a confidence score of 0.83.
+- **Before**: Missed detection due to low contrast and small size.
+- **After**: Successfully detected and classified the sign with high precision.
 
 ---
 
@@ -98,7 +98,7 @@ Below are visual comparisons of predictions made by the YOLOv8m model **before**
 |--------------------|-------------------|
 | ![Before FT 2](example_predictions/yolo_clock.png) | ![After FT 2](example_predictions/yolo_clock_corrected.png) |
 
-- **Before**: Missed detection due to low contrast and small size.
-- **After**: Successfully detected and classified the sign with high precision.
+- **Before**: Model misclassified the sign with a confidence score of 0.27.
+- **After**: Correctly identified the traffic sign with a confidence score of 0.83.
 
 ---
